@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/dennaorg/MsJavaGit/_apis/build/status%2Fuserdenna.pipelines-java?branchName=main)](https://dev.azure.com/dennaorg/MsJavaGit/_build/latest?definitionId=5&branchName=main)
 
 # Contributing
 
