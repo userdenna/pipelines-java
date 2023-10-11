@@ -3,15 +3,32 @@ name: Node Build.
 
 on: [push]
 
+#on:
+#    [push, pull_request]
+#on:
+#    pull_request:
+#        branches:
+#            - develop
+#on:
+#    schedule:
+#        - cron: '0 8-17 * * 1-5'
+##Minute (0 - 59)
+##Hour (0 - 23)
+##Day of the month (1 - 31)
+##Month (1 - 12)
+##Day of the week (0 - 6)
+
+
+
 jobs:
     mainbuild:
- 
-        runs-on: ${{ matrix.os }}
+#        runs-on: ${{ matrix.os }}
+        runs-on: ubuntu-latest
      
     strategy:
         matrix:
             node-version: [12.x]
-            os: [windows-latest]
+            os: [ubuntu-latest]
          
     steps:
 
