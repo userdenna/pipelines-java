@@ -120,9 +120,9 @@ jobs:
 - job: B
   dependsOn: [] # This removes the implicit dependency on the previous stage and causes this to run in parallel.
   steps:
-    - script: echo' job B.'
+    - script: echo "job B."
   
 - job: C
   dependsOn: B
   steps:
-    - script: echo' job C.'
+    - script: echo "job C."
