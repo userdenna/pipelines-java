@@ -80,12 +80,11 @@ pool:
 ## - containers (for container jobs)
 ## - packages
 
-resources:
-  repositories:
-
-  - repository: appcode
-    type: git
-    name: otherRepo
+#resources:
+#  repositories:
+#  - repository: appcode
+#    type: git
+#    name: otherRepo
 
 jobs:
 ##A job has the following attributes besides its name:
