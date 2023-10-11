@@ -1,4 +1,9 @@
+# Azure
 [![Build Status](https://dev.azure.com/dennaorg/MsJavaGit/_apis/build/status%2Fuserdenna.pipelines-java?branchName=main)](https://dev.azure.com/dennaorg/MsJavaGit/_build/latest?definitionId=5&branchName=main)
+
+# Github
+[![.github/workflows/build.yml](https://github.com/userdenna/pipelines-java/actions/workflows/build.yml/badge.svg)]
+
 
 # Contributing
 
