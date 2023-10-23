@@ -8,8 +8,8 @@ trigger:
 
 pool:
   name: SelfHosted
-  demands:
-  - Agent.Name -equals agent-azure-freevm-linux
+#  demands:
+#  - Agent.Name -equals agent-azure-freevm-linux
 
 steps:
 - task: Maven@3
