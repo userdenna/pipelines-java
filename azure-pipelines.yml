@@ -7,9 +7,9 @@ trigger:
 - main
 
 pool:
-  name: az400m03l03a-pool
+  name: SelfHosted
   demands:
-  - Agent.Name -equals az400m03-vm0
+  - Agent.Name -equals agent-azure-freevm-linux
 
 steps:
 - task: Maven@3
